@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+
+<body>
+    <h1>Welcome to the dashboard!</h1>
+    <p>You are logged in as: <span id="current-user-email"></span></p>
+    <form id="change-password-form">
+        <h2>Change Password</h2>
+        <label for="old-password">Old Password:</label>
+        <input type="password" id="old-password" name="old-password"><br><br>
+        <label for="new-password">New Password:</label>
+        <input type="password" id="new-password" name="new-password"><br><br>
+        <label for="confirm-password">Confirm Password:</label>
+        <input type="password" id="confirm-password" name="confirm-password"><br><br>
+        <button type="submit">Change Password</button>
+    </form>
+    <button id="logout-button">Logout</button>
+    <script src="dashboard.js"></script>
+</body>
+
+</html>
